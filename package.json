@@ -1,0 +1,13 @@
+{
+  "name": "ua-marketing-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check api/chat.js && node --check src/chatProxy.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
